@@ -718,7 +718,6 @@ button {
 /* Media*/
 /* Sobre mi*/
         @media(max-width:950px){
-
             .header{
                 height: 80px;
                 padding-top: 0px;
@@ -775,6 +774,13 @@ button {
                 padding-top: 20px ;
             }
 /* entretenimiento */
+            .social-footer{
+                width: 100vh;
+                background-color: $azul_oscuro;
+            }
+            .contenedor_entretenimiento{
+                width: 100vh;
+            }
             .youtube__1{
                 width: 460px;
                 height: 500px;
@@ -786,6 +792,10 @@ button {
             .txt_entretenimiento h1{
                 padding-top: 150px;
             }
+            hr{
+                width: 100vh;
+
+            }   
 /* Experiencia */  
             .proredes img{
                 height: 100vh;
@@ -799,7 +809,7 @@ button {
 /* Inicio*/
             .background_fondo{
                 height: 110vh;
-                width: 81vh;
+                width: 76vh;
                 & h1{
                     margin-left: 10px;
                     font-size:30px ;
@@ -821,10 +831,12 @@ button {
                         text-align: center;
                     }
                 }
+                
 /* Sobre mi*/
                 .sobre_mi_principal{
                     grid-template-columns: repeat(1, 1fr);
                     grid-gap: 2px;
+                    width: 100vh;
                 }
                 .foto_sobre_mi img{
                     margin-left: 110px;
@@ -834,12 +846,15 @@ button {
                     margin-top: 30px;
                     position: relative;
                     margin-left: 25px;
+                    background-color: $azul_oscuro;
+                    width: 100vh;
                 }
 
-/* Sobre mi*/
+/* experiencia*/
                 .contenedor_experiencia_grid{
                     padding-top: 400px;
                     grid-template-columns: repeat(1, 1fr);
+                    width: 100vh;
                 }
                 .text_experiencia{
                     width: 60%;
@@ -860,7 +875,7 @@ button {
                 }
                 .foto_experiencia img{
                     height: 300px;
-                    width: 470px;
+                    width: 100vh;
                     margin-top: 100px;
                     margin-left: 7px;
                 }
@@ -885,6 +900,7 @@ button {
                 .footer_grid{
                     grid-template-columns: repeat(6, 1fr);
                     justify-content:safe;
+                    
                 }  
 /* contacto*/
                 .form-text a{
